@@ -16,3 +16,5 @@ INSERT INTO sample_product_data_2 VALUES
 (12, 10, 50, 'Product 4B', 'prod-4-B', 4, 100);
 
 SELECT * FROM sample_product_data_2;
+
+--testing git push from workspace
