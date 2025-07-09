@@ -1,7 +1,7 @@
-CREATE OR REPLACE TABLE sample_product_data_2
+CREATE OR REPLACE TABLE sample_product_data
 (id INT, parent_id INT, category_id INT, name VARCHAR, serial_number VARCHAR, key INT, "3rd" INT);
 
-INSERT INTO sample_product_data_2 VALUES
+INSERT INTO sample_product_data VALUES
 (1, 0, 5, 'Product 1', 'prod-1', 1, 10),
 (2, 1, 5, 'Product 1A', 'prod-1-A', 1, 20),
 (3, 1, 5, 'Product 1B', 'prod-1-B', 1, 30),
@@ -15,6 +15,6 @@ INSERT INTO sample_product_data_2 VALUES
 (11, 10, 50, 'Product 4A', 'prod-4-A', 4, 100),
 (12, 10, 50, 'Product 4B', 'prod-4-B', 4, 100);
 
-SELECT * FROM sample_product_data_2;
+SELECT * FROM sample_product_data;
 
---testing git push from workspace
+
